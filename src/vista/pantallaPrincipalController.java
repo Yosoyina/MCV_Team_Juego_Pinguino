@@ -19,7 +19,7 @@ public class pantallaPrincipalController {
     @FXML private MenuItem loadGame;
     @FXML private MenuItem quitGame;
 
-    @FXML private TextField userField;
+    @FXML private TextField userField; 
     @FXML private PasswordField passField;
 
     @FXML private Button loginButton;
