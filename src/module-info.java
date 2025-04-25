@@ -5,9 +5,9 @@ module MCV_Team_Juego_Pinguino {
 	requires javafx.controls;
 	requires javafx.fxml;
 	
-	opens Vista to javafx.fxml;
+	opens vista to javafx.fxml;
 	
-	exports Vista;
-	exports Controlador;
-	exports Modelo;
+	exports vista;
+	exports controlador;
+	exports modelo;
 }
